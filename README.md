@@ -1,2 +1,2 @@
-# New-codeverse-website
- This is a codeverse website
+# Codeverse-Website
+ This is a website for codverse

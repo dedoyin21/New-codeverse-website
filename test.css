@@ -1,0 +1,1096 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pag1{
+    background-color: #F6F0E3;
+    padding-bottom: 15rem;
+}
+
+.bar-lines {
+    max-height: 10%;
+    cursor: pointer;
+}
+
+.shape2 {
+    position: absolute; 
+    bottom: 50px;
+    right: 0; 
+    max-height: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    width: auto;
+}
+
+.pag1 {
+    background-color: #F6F0E3;
+}
+
+.navigation-bar {
+    display: flex; 
+    align-items: center; 
+    padding: 12px 20px; 
+    color: #FFFFFF;
+}
+
+.logo {
+    max-height: 50px;
+    margin: 0 10rem 0 8rem;
+}
+
+.dropdown-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.dropdown-menu li {
+    margin-right: 3.5rem; 
+}
+
+.menuBtn {
+    background-color: #A74747;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 7rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Styles for the submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    padding: 10px; 
+    z-index: 1; 
+}
+
+.submenu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu li:hover .submenu {
+    display: block;
+}
+
+.text1{
+    text-align: center;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+    margin: 3rem 20rem 1rem 20rem;
+}
+
+.text2{
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;   
+   text-align: center;  
+   margin: 0 26rem;
+}
+
+ .btn1{
+    height: 50px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #00000033;
+    color: #000000;
+    background-color: inherit;
+ }
+
+.btn2{
+    height: 50px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 4px;
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 1px solid #A74747;
+    background-color: #A74747;
+    margin-left: 1rem;
+} 
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0rem 0 30rem;
+}
+
+ /* Design for page 2  */
+
+.page-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 3.5em 0 3.5em 0;
+    background-color: #2E294E; 
+}
+
+.pg-img2 {
+  height: 15%;
+  width: 50vh;
+  margin: 3rem 0 0 10rem;
+}
+
+.c11 {
+    margin: 3.5em 10rem 3em 10rem;
+}
+
+.codeverse{
+    font-family: 'Cabinet Grotesk Variable' sans-serif;
+    font-size: 2em; 
+    font-weight: 700;
+    line-height: 2em; 
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.pg-text23 {
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1.2em; 
+    font-weight: 400;
+    line-height: 1.2em; 
+    color: #D3D0E7;
+}
+
+.pg-btn {
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1em; 
+    font-weight: 600; 
+    color: #FFFFFF;
+    height: 8vh; 
+    padding: 0.5em 1em; 
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    background-color: #2E294E;
+    margin-top: 3.7vh;
+}
+
+/* page 3 */ 
+
+.page-3 {
+    display: flex;
+    flex-direction: row;
+    padding: 5em 0 5em 0;
+    background-color: #541388;
+}
+
+.pg-img3 {
+    height: 15%;
+    width: 50vh;
+    margin: 0 10rem 0 0rem;
+}
+
+.for {
+    font-family: 'Cabinet Grotesk Variable' sans-serif;
+    font-size: 2em; 
+    font-weight: 700;
+    line-height: 2em; 
+    color: #FFFFFF;
+}
+
+.c22 {
+    margin: 3.5em 12em 2em 10em;
+}
+
+.page3-btn2 {
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1em; 
+    font-weight: 600; 
+    color: #541388;
+    height: 8vh; 
+    padding: 0.5em 1em; 
+    border-radius: 7px;
+    border: 1px solid #541388; 
+    background-color: #FFD400;
+    margin-top: 1em;
+}
+
+.pg-txt231 {
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1.2em; 
+    font-weight: 400;
+    line-height: 1.2em; 
+    letter-spacing: 0;
+    color: #D3D0E7;
+}
+
+/* page 4 */
+
+.page-4{
+   background-color: #F6F0E3;
+   color: #000000;
+   padding: 3em 2em 0 2em;
+}
+
+.pag-txt09{
+    font-family: 'Cabinet Grotesk Variable' sans-serif;
+    font-size: 2.2em; 
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+
+.why{
+    font-family: "IBM Plex Sans";
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    color: #000000;   
+    text-align: center; 
+    margin: 0.7rem 17rem 7rem 17rem;
+}
+
+/* Start your program  */
+
+.inner-part{
+    margin: 0 0 0.2em 0;
+}
+
+.start{
+    font-family: 'Cabinet Grotesk Variable' sans-serif;
+    font-size: 1em; 
+    font-weight: 700;
+    line-height: 8vh; 
+    text-align: center;
+}
+
+.program{
+    font-family: 'Cabinet Grotesk Variable' sans-serif;
+    font-size: 2em; 
+    font-weight: 700;
+    line-height: 8vh; 
+    text-align: center;
+    margin-top: 0em;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 7rem;
+}
+
+.border-box {
+    border: 1.5px solid black;
+    box-shadow: 7px 5px #2E294E;
+    background-color: white;
+    width: 290px;
+    margin: 65.5px 65.5px 3px 65.5px;
+}
+
+#vector {
+    transform: scale(0.7);
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
+.product {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin: 0.5em 0 1.5em 1em;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 2.2vh;
+    letter-spacing: 0em;
+}
+
+.word {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1em;
+    margin: -0.9em 1.25em 1.5em 1.25em;
+    line-height: 3.5vh;
+}
+
+#enroll{
+    border: none;
+    background-color: white;
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 0 0.6em 1.25em;
+    color: #000000;
+}
+.coming{
+    margin-left: 1.2em;
+    background-color: white;
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 0 0.6em 1.25em;
+    color: #000000;
+}
+
+/*  page 6  */
+
+ .page6{
+    background-color: #141414;
+    color: #FFFFFF;
+    padding-bottom: 1em;
+}
+.student{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 40px 0 90px;
+}
+
+#line1{
+    color: #F6F0E3;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 2em;
+    margin-left: 6rem;
+    font-weight: 700;
+    line-height: 0.5em;
+    padding: 2.5em 0 0 0;
+}
+
+#image{
+    height: 50%;
+    margin: 4em auto 0 auto;
+}
+
+#name{
+    color: #F6F0E3;
+    font-family: 'Cabinet Grotesk' sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 2.2em;
+    letter-spacing: 0.02em;
+    margin-top: 0.7em;
+}
+
+#color{
+    color: #F6F0E3;
+    font-family: 'IBM Plex Sans' sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+/* page 7 */
+.page-7{
+    background-color:#F6F0E3;
+    padding: 3em 0 1em 0;
+   
+}
+
+.card{
+    background-color: #2E294E;
+    border: 1px solid #2E294E;
+    margin: 2rem 9rem 5rem 9rem;
+    padding: 0 40rem 6rem 3rem;
+}
+
+#card-image{
+    position: absolute;
+    scale: -0.7;
+    z-index: 1;
+    margin: -34rem 0 0 45rem;
+    height: 70%;
+}
+
+#line2{
+    font-family: "Cabinet Grotesk Variable" sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2.2em;
+    color: #FFFFFF;
+    padding-top: 5rem;
+    margin-left: 1em;
+}
+
+.card-word{
+    font-family: 'IBM Plex Sans' sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.2em;
+    color:#D3D0E7;
+    margin: 1em 0em 0 2em;
+}
+
+.btn-design{
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1.2em; 
+    font-weight: 600; 
+    color: #541388;
+    padding: 0.5em 1em; 
+    border-radius: 4px;
+    border: 1px solid #541388;
+    background-color: #FFD400;
+    margin: 1em 0 0 1.9rem;
+}
+
+/*  footer css */ 
+
+.footer{
+    background-color: #F6F0E3;
+    padding: 0 0rem 3em 8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row; 
+    text-decoration: none;
+    list-style: none;
+}
+
+li a{
+    margin-right: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.power{
+    margin: 0em 0 1em 0;
+    font-family: "Cabinet Grotesk" sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0em;
+    color: #000000;
+
+}
+
+#footer-img{
+    margin-bottom: 1em;
+}
+
+.footer-links{
+    margin-bottom: 1em;
+}
+
+#footer-num{
+    margin-bottom: 1em;
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#footer-bar{
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.footer-info{
+    margin: 0 0 2em 1em;
+}
+
+.courses{
+    margin: 0 0 2em 14em;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-row1{
+    line-height: 2rem;
+    list-style: none;
+    color: black;
+    margin-bottom: 3em;
+}
+
+.footer-row1 li a{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.footer-row2{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 3em;
+}
+
+.footer-row3{
+    list-style: none;
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+
+.pro{
+    height: 24px;
+    font-family: "IBM Plex Sans" sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#col{
+    margin-bottom: 0.2em;
+}
+.footer-courses1, .footer-courses2, .footer-courses3{
+    margin: 0 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Hide bar-lines and shape1 in desktop view */
+@media screen and (min-width: 769px) {
+    .bar-lines,
+    .shape1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown-menu {
+        display: none; 
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #ccc; 
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .dropdown-menu li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menuBtn{
+        display: none;
+    } 
+    
+    /* pag1*/
+    
+    .pag1{
+        background-color: #F6F0E3;
+    }
+
+    .bar-lines{
+        margin: -0.2em 0 0 8.5em;
+    }
+
+    .navigation-bar{
+        padding: 1.2em 0 0 1em;
+        height: 78%;
+    }
+
+    .text1{
+        text-align: center;
+        font-family: 'Cabinet Grotesk', sans-serif;
+        font-size: 2.7em;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        color: #000000;
+        margin: 2em 0.5em 0 0.5em; 
+    }
+
+    .text2{
+        font-family: "IBM Plex Sans" sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0em;
+        height: 63px;
+        color: #000000;   
+        margin: 2em 3em 0 3em;     
+    }
+
+    .btn1{
+        margin-bottom: 20px;
+        height: 50px;
+        padding: 14px 32px 14px 32px;
+        border-radius: 4px;
+        border: 1px solid #00000033;
+        gap: 10px;
+        color: #000000;
+        font-family: IBM Plex Sans;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+    }
+
+    .btn2{
+        height: 50px;
+        padding: 14px 32px 14px 32px;
+        border-radius: 4px;
+        gap: 10px;
+        font-family: IBM Plex Sans;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        border: 1px solid #A74747;
+        background-color: #A74747;
+        width: 12em; 
+        margin-top: 1em;
+    }
+
+    .btn{
+        height: 30vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.2em 0 0.01em 0;
+    }
+      
+    .shape1{
+        margin-top: 0.01em;
+        padding-top: 0.02em;
+       
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .shape2{
+        display: none;
+    }
+
+
+   /* Design for page 2 */
+
+    .page-2 {
+      display: flex;
+      flex-direction: column;
+      padding: 3.5em 0 3.5em 0;
+      background-color: #2E294E; 
+    }
+  
+    .pg-img2 {
+      height: 15%;
+      width: 50vh;
+      margin: 0 auto;
+    }
+  
+    .c11 {
+        margin: 3.5em 2.5em 3em 1.5em;
+    }
+
+    .codeverse{
+        font-family: 'Cabinet Grotesk Variable' sans-serif;
+        font-size: 2em; 
+        font-weight: 700;
+        line-height: 2em; 
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    .pg-text23 {
+        font-family: IBM Plex Sans;
+        font-size: 1em; 
+        font-weight: 400;
+        line-height: 2em; 
+        color: #D3D0E7;
+    }
+  
+    .pg-btn {
+        font-family: IBM Plex Sans;
+        font-size: 1.5em; 
+        font-weight: 600; 
+        color: #FFFFFF;
+        height: 8vh; 
+        padding: 1em 2em 2em 1em; 
+        border-radius: 4px;
+        border: 1px solid #FFFFFF;
+        gap: 0.625em; 
+        background-color: #2E294E;
+        margin-top: 3.7vh;
+    }
+
+    /* page 3 */
+
+    .page-3 {
+        display: flex;
+        flex-direction: column;
+        padding: 5em 0 5em 0;
+        background-color: #541388;
+    }
+    
+    .pg-img3 {
+        height: 15%;
+        width: 50vh;
+        margin: 0 auto;
+    }
+
+    .for {
+        font-family: 'Cabinet Grotesk Variable' sans-serif;
+        font-size: 2em; 
+        font-weight: 700;
+        line-height: 2em; 
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    .c22 {
+        margin: 3.5em 2.5em 2em 1.5em;
+    }
+
+    .page3-btn2 {
+        font-family: "IBM Plex Sans" sans-serif;
+        font-size: 1.5em; 
+        font-weight: 600; 
+        color: #541388;
+        height: 8vh; 
+        padding: 0.5em 1em; 
+        border-radius: 7px;
+        border: 1px solid #541388;
+        gap: 0.625em; 
+        background-color: #FFD400;
+        margin-top: 8em;
+    }
+
+    .pg-txt231 {
+        font-family: IBM Plex Sans;
+        font-size: 1em; 
+        font-weight: 400;
+        line-height: 1.5em; 
+        letter-spacing: 0;
+        color: #D3D0E7;
+        height: 12.969vh; 
+    }
+
+    /* page 4 */
+
+    .page-4{
+       background-color: #F6F0E3;
+       color: #000000;
+       padding: 3em 2em 0 2em;
+    }
+
+    .pag-txt09{
+        font-family: 'Cabinet Grotesk Variable' sans-serif;
+        font-size: 2em; 
+        font-weight: 700;
+        line-height: 8vh; 
+        letter-spacing: -0.02em;
+        color: #000000;
+        text-align: center;
+    }
+
+    .why{
+        font-family: IBM Plex Sans;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0em;
+        height: 63px;
+        color: #000000;   
+        text-align: center; 
+    }
+
+
+    /* Start your program */
+
+    .inner-part{
+        margin-top: 15em;
+        margin: 15em 0 0.2em 0;
+    }
+
+    .start{
+        font-family: 'Cabinet Grotesk Variable' sans-serif;
+        font-size: 1em; 
+        font-weight: 700;
+        line-height: 8vh; 
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+
+    .program{
+        font-family: 'Cabinet Grotesk Variable' sans-serif;
+        font-size: 2em; 
+        font-weight: 700;
+        line-height: 8vh; 
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-top: 0em;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 3em;
+    }
+
+    .border-box {
+        border: 1.5px solid black;
+        box-shadow: 7px 5px #2E294E;
+        width: 100%; 
+        height: auto; 
+        margin: 1em 0; 
+        background-color: white;
+        padding: 0.3em 0 1em 0;
+    }
+
+    #vector {
+        transform: scale(0.7);
+        margin-left: 1em;
+        margin-top: 1.5em;
+        margin-bottom: 0;
+    }
+
+    .product {
+        font-family: 'Cabinet Grotesk', sans-serif;
+        margin: 0.5em 0 1.5em 1em;
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 2.2vh;
+        letter-spacing: 0em;
+    }
+
+    .word {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 1em;
+        margin: -0.9em 1.25em 1.5em 1.25em;
+        line-height: 3.5vh;
+    }
+
+    #enroll{
+        border: none;
+        background-color: white;
+        font-family: IBM Plex Sans;
+        font-size: 1.2em;
+        font-weight: 500;
+        line-height: 1.5vh;
+        letter-spacing: 0em;
+        margin: 0 0 0.6em 1.25em;
+        color: #000000;
+    }
+    .coming{
+        margin-left: 1.2em;
+    }
+
+    /* page 6 */
+
+     .page6{
+        background-color: #141414;
+        width: 100%;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        padding-bottom: 5em;
+    }
+
+    #line1{
+        color: #F6F0E3;
+        font-family: 'Cabinet Grotesk', sans-serif;
+        font-size: 2em;
+        margin-left: 0.2em;
+        font-weight: 700;
+        line-height: 0.5em;
+        padding: 2em 0 0 0;
+    }
+
+    #image{
+        height: 15%;
+        width: 50vh;
+        margin: 4em auto 0 auto;
+    }
+
+    #name{
+        color: #F6F0E3;
+        font-family: 'Cabinet Grotesk' sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 2.2em;
+        letter-spacing: 0.02em;
+        margin-top: 0.7em;
+    }
+
+    #color{
+        color: #F6F0E3;
+        font-family: 'IBM Plex Sans' sans-serif;
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.2em;
+        letter-spacing: 0.02em;
+    }
+    
+    /* page 7 css */
+    .page-7{
+        background-color:#F6F0E3;
+        padding: 3em 0 3em 0;
+       
+    }
+
+    .card{
+        background-color: #2E294E;
+        margin: 0 1.5em 0 1.5em;
+        padding-bottom: 3.9em;
+    }
+
+    #card-image{
+        display: none;
+    }
+
+    #line2{
+        font-family: "Cabinet Grotesk Variable" sans-serif;
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 2.2em;
+        color: #FFFFFF;
+        padding-top: 1.5em;
+        margin-left: 1em;
+    }
+
+    .card-word{
+        font-family: 'IBM Plex Sans' sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.7em;
+        letter-spacing: 0em;
+        color:#D3D0E7;
+        margin: 1em 1.2em 0 2em;
+    }
+
+    .btn-design{
+        font-family: "IBM Plex Sans" sans-serif;
+        font-size: 1.5em; 
+        font-weight: 600; 
+        color: #541388;
+        height: 8vh;
+        padding: 0.5em 1em; 
+        border-radius: 7px;
+        border: 1px solid #541388;
+        gap: 0.625em; 
+        background-color: #FFD400;
+        margin: 1em 0 0 1.9rem;
+    }
+
+    /* footer css */
+
+    .footer{
+        background-color: #F6F0E3;
+        padding: 0 1em 3em 1em;
+    }
+
+    .footer-links{
+        display: flex;
+        flex-direction: row; 
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    li a{
+        margin-right: 1.2rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    .power{
+        margin: 0em 0 1em 0;
+        font-family: "Cabinet Grotesk" sans-serif;
+        font-size: 0.9em;
+        font-weight: 700;
+        line-height: 1.1em;
+        letter-spacing: 0em;
+        color: #000000;
+
+    }
+
+    #footer-img{
+        margin-bottom: 1em;
+    }
+
+    .footer-links{
+        margin-bottom: 1em;
+    }
+
+    #footer-num{
+        margin-bottom: 1em;
+        font-family: "IBM Plex Sans" sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    #footer-bar{
+        font-family: "IBM Plex Sans" sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .footer-info{
+        margin: 0 0 2em 1em;
+    }
+
+    .courses{
+        margin: 0 0 2em 1em;
+    }
+
+    .footer-row1{
+        line-height: 2rem;
+        list-style: none;
+        color: black;
+        margin-bottom: 3em;
+    }
+
+    .footer-row1 li a{
+        text-decoration: none;
+        text-decoration-color: none;
+    }
+
+    .footer-row2{
+        list-style: none;
+        text-decoration: none;
+        margin-bottom: 3em;
+    }
+
+    .footer-row3{
+        list-style: none;
+        text-decoration: none;
+        line-height: 2rem;
+    }
+
+
+    .pro{
+        height: 24px;
+        font-family: "IBM Plex Sans" sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    #col{
+        margin-bottom: 0.2em;
+    }
+}
+
+
+
+    
+
+    
+
+   
+
+    
+
+    
+
+   
+
+   
