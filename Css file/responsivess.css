@@ -1,0 +1,122 @@
+@media only screen and (max-width: 767.99px){
+
+    .container{
+        padding: 0 15px;
+    }
+
+    .f-lists{
+        display: none;
+    }
+
+    h3{
+        display: block;
+    }
+
+    .myBtn1{
+        display: none;
+    }
+
+    .mission{
+        width: 100%;
+    }
+ 
+    .mission h1, .mission p{
+        width: 80vw;
+    }
+
+    .mission h1{
+        font-size: 1.8rem;
+    }
+
+    .btn-2{
+        display: block;
+        text-align: center;
+    }
+
+    .btn-t, .myBtn{
+        margin-top: 1rem;
+        width: 50vw;
+    }
+
+    .myBtn{
+        margin-right: 1.3rem;
+    }
+
+    .ball-fl, .square-fl{
+        flex-direction: column;
+    }
+
+    .ball-image {
+        margin: 2rem auto 0;
+    }
+
+    .ball-image img{
+        width: 80vw;
+        padding: 0;
+    }
+
+    .h2-fl, .h1-square{
+        padding: 0 0 3rem 0;
+    }
+
+    .h1-square{
+        width: 100%;
+    }
+
+    .middle-content{
+        text-align: center;
+        padding: 0;
+    }
+
+    .pag-txt09{
+        padding-top: 3rem;
+    }
+
+    .start{
+        padding-top: 4rem;
+    }
+
+    .program{
+        padding-top: .5rem;
+    }
+
+    .std-pic img{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .crd2{
+        flex-direction: column;
+    }
+
+    .card{
+        padding: 3rem 0;
+    }
+
+    .ball2{
+        display: none;
+    }
+
+    /* .ball2 img{
+        width: 80vw;
+    } */
+
+    .c-word1{
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .sm{
+        display: block;
+    }
+
+    .sm1{
+        margin: 3rem auto 2rem;
+    }
+
+    .sm-0{
+        margin: 0;
+    }
+
+
+}

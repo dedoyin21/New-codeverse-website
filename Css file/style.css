@@ -1,0 +1,525 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    padding: 0 50px;
+}
+
+main, header{
+    background-color: #F6F0E3;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('CabinetGrotesk_Complete/CabinetGrotesk_Complete/Fonts/Variable/CabinetGrotesk-Variable.ttf') format('truetype');
+    font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* nav-links styling*/
+
+.d-fl{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* This is the navlinks/list styling */
+.f-lists{
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* This is to display for dropdown list and for bar menu for mobile view*/
+h3, .s-lists{
+    display: none;
+}
+
+/* Styling for general buttons */
+.btn{
+    text-decoration: none;
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+}
+
+.btn-n{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+}
+
+/* First button at the top right corner */
+.myBtn1, .myBtn{
+    background-color: #A74747;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+}
+
+/*First section styling */
+.mission h1{ 
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 40vw;
+}
+
+.mission p{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 50vw;
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+.mission>h1{
+    font-size: 34px;
+    padding-top: 5rem;
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+/* General styling for button in first section */
+.btn-2{
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+/*First Button */
+.btn-t{
+    color: #000000;
+    background-color: #F6F0E3;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    margin-right: 1.5rem;
+}
+
+/* Second Button has take the styling of get started */
+
+
+/* Second section styling */
+.section2{
+    background: #2E294E;
+}
+
+.ball-fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ball-image{
+    flex: 1;
+    margin: 4rem 4rem;
+}
+
+.ball-image img{
+    width: 25vw;
+    padding-left: 3rem;
+}
+
+.h2-fl{
+    padding: 0 6rem;
+}
+
+.code{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.h2-fl h2, .h2-fl p{
+    margin-top: 2.2rem;
+}
+
+.h2-fl p{
+    color: #D3D0E7;
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+/* Button styling for button in second section */
+.btn-arrow-b{
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #2E294E;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+/*Third section styling */
+.section3{
+    background: #541388;
+}
+
+.square-fl{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-square{
+    margin: 3rem auto;
+}
+
+.h1-square h2{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.h1-square p{
+    color: #D3D0E7;
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+.h1-square{
+    padding: 3rem 5rem;
+    width: 50vw;
+}
+
+.h1-square h2, .h1-square p {
+    margin-top: 2.2rem;
+}
+
+.square-fl p{
+    color: #D3D0E7;
+}
+
+/* Line height styling for both section 2 and 3 */
+.line-h{
+    line-height: 1.2rem;
+}
+
+.btn-arrow-y{
+    background: #FFD400;
+    padding: 10px 15px;
+    color: #541388;
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+/* Styling for both buttons in second section and third section */
+.arrow{
+    margin-top: 2.5rem;
+}
+
+/* Styling for both icons in second and third section */
+.arrow-i{
+    padding-left: 0.5rem;
+}
+
+/* section4 */
+.section4, .section5, .section6{
+    background-color: #F6F0E3;
+}
+
+.middle-content{
+    text-align: center;
+    padding: 5rem 15rem 7rem 15rem;
+}
+
+.middle-content h1{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2.2em; 
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 1.7rem;
+}
+
+.middle-content p{
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    color: #000000;   
+}
+
+/* fifth section */
+.inner-part{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.start h4{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 1em; 
+    font-weight: 700;  
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.program h1{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2em; 
+    font-weight: 700; 
+    color: #000000;
+    margin-top: 1rem;
+}
+
+/* section6 */
+.border-box{
+    border: 2px solid black;
+    box-shadow: 8px 6px#2E294E;
+    background-color: white;
+    width: 350px; 
+    height: 350px;
+    padding: 2rem;
+}
+
+#vector, .product{
+    margin-bottom: 1.5rem;
+}
+
+.btn-arrow-e{
+    background-color:white;
+    border: none;
+}
+
+.boxes{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 0 6rem 0;
+}
+
+.product h2{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    align-items: center;
+}
+
+.word p{
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+/* section7 */
+
+.section7{
+    background-color: rgba(20, 20, 20, 1);
+}
+
+.page-6{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color:  rgba(255, 255, 255, 1);
+    padding: 2rem 0;
+    margin: auto 3.5rem;
+}
+
+.st-details h4{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:  rgba(255, 255, 255, 1);
+    letter-spacing: 0.02em;
+}
+
+.st-details h6{
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color:  rgba(255, 255, 255, 1);
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem; 
+    justify-content: center;
+    align-items: center;
+}
+
+.details img{
+    width: 18vw;
+}
+
+.st-details{
+    line-height: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.student{
+    padding-bottom: 4rem;
+}
+
+/* section 8 */
+.section8{
+    background-color: rgba(246, 240, 227, 1);
+}
+
+.crd2{
+    background-color: rgba(46, 41, 78, 1);
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1rem 0;
+}
+
+.card{
+    padding: 5rem 5rem 3rem 5rem;
+}
+
+.c-word1 h1{
+    font-family: "Cabinet Grotesk Variable";    
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 2rem;
+}
+
+.c-word1 p{
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em;
+    color: rgba(211, 208, 231, 1);
+}
+.c-word1{
+    margin: 5rem 7rem 5rem 5rem ;
+}
+
+.ball2{
+    flex: 1;
+    margin: 4rem 6rem;
+}
+
+.ball2 img{
+    width: 20vw;
+}
+
+/* footer */
+.section9{
+    background-color: rgba(246, 240, 227, 1);
+    padding-bottom: 5rem;
+}
+
+.footer-links{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer{
+    display: flex;
+    gap: 19rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses{
+    display: flex;
+    gap: 6rem;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.ft-foot{
+    line-height: 2.7rem;
+}
+
+.courses{
+    line-height: 2rem;
+}
+
+#footer-num, #footer-bar{
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+.footer-courses1{
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 1);
+}
+
+#col{
+    font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 1); 
+}
+
+
+
+
+
+
