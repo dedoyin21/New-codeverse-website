@@ -121,7 +121,13 @@ h3, .s-lists{
     display: flex;
     margin: 30px auto;
     justify-content: center;
+    padding-bottom: 13rem;
 }
+
+.btn-2:hover {
+    transition: opacity 0.3s; 
+    opacity: 0.7; 
+  }
 
 /*First Button */
 .btn-t{
@@ -130,6 +136,17 @@ h3, .s-lists{
     padding: 10px 15px;
     border: 1px solid gray;
     margin-right: 1.5rem;
+}
+
+/* .shapes{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: fit-content;
+} */
+
+.svg-shap{
+    display: none;
 }
 
 /* Second Button has take the styling of get started */
@@ -340,7 +357,12 @@ h3, .s-lists{
     justify-content: center;
     align-items: center;
     padding: 3.5rem 0 6rem 0;
-}
+    transition: opacity 0.3s; 
+  }
+  
+  .boxes:hover{ 
+    color: #2E294E;
+  }
 
 .product h2{
     font-family: "Cabinet Grotesk Variable";    
@@ -470,12 +492,23 @@ h3, .s-lists{
     gap: 1.5rem;
 }
 
+
 .footer{
     display: flex;
     gap: 19rem;
     justify-content: center;
     align-items: center;
 }
+
+.footer-links .media img {
+    transition: opacity 0.3s; 
+  }
+  
+  .footer-links .media:hover img {
+    opacity: 0.7; 
+    color: #2E294E;
+    transform: scale(1.5);
+  }
 
 .courses{
     display: flex;

@@ -4,6 +4,10 @@
         padding: 0 15px;
     }
 
+    .shapes{
+        display: none;
+    }
+
     .f-lists{
         display: none;
     }
