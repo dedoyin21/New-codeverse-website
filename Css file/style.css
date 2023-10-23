@@ -16,6 +16,8 @@ header, aside{
     background-color: #F6F0E3;
 }
 
+
+
 @font-face {
     font-family: 'Cabinet Grotesk';
     src: url('CabinetGrotesk_Complete/CabinetGrotesk_Complete/Fonts/Variable/CabinetGrotesk-Variable.ttf') format('truetype');
@@ -29,7 +31,7 @@ header, aside{
 .d-fl{
     display: flex;
     justify-content: space-between;
-  /*   padding-top: 30px; */
+    padding-top: 30px;
 }
 
 ul li{
@@ -117,7 +119,7 @@ h3, .s-lists{
 
 .btn-2:hover {
     transition: opacity 0.3s; 
-    opacity: 0.7; 
+    opacity: 0.5; 
   }
 
 /*First Button */
