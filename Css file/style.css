@@ -12,7 +12,7 @@ body{
     padding: 0 50px;
 }
 
-main, header{
+header{
     background-color: #F6F0E3;
 }
 
@@ -107,21 +107,12 @@ h3, .s-lists{
     letter-spacing: 0.02em;
 }
 
-/* .mission>h1{
-    font-size: 34px;
-    padding-top: 5rem;
-    font-family: "Cabinet Grotesk Variable";    
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-} */
-
 /* General styling for button in first section */
 .btn-2{
     display: flex;
     margin: 30px auto;
     justify-content: center;
-   /*  padding-bottom: 13rem; */
+    padding-bottom: 13rem;
 }
 
 .btn-2:hover {
@@ -138,24 +129,12 @@ h3, .s-lists{
     margin-right: 1.5rem;
 }
 
-/* .shapes {
-    position: absolute;
-    top: 12rem;
-    width: 10%;
-   /*  max-width: 50%;  */
-  /*   max-height: auto; 
-  }
-
-.svg-shap{
-    display: none; */
- */
-
 /* Second Button has take the styling of get started */
 
 
 /* Second section styling */
 .section2{
-    background: #2E294E;
+    background-color: #2E294E;
 }
 
 .ball-fl{
