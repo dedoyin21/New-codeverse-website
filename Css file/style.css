@@ -114,7 +114,8 @@ h3, .s-lists{
     display: flex;
     margin: 30px auto;
     justify-content: center;
-    padding-bottom: 13rem;
+    padding: 1.5rem 0 13rem 0;
+    margin: 0;
 }
 
 .btn-2:hover {

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767.99px){
 
     .container{
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
    /*  .shapes{
@@ -40,6 +40,10 @@
     .btn-t, .myBtn{
         margin-top: 1rem;
         width: 50vw;
+    }
+
+    .icon-vector{
+        margin-bottom: 1rem;
     }
 
     .myBtn{
