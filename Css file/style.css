@@ -488,7 +488,7 @@ h3, .s-lists{
 
 .footer{
     display: flex;
-    gap: 19rem;
+    gap: 16rem;
     justify-content: center;
     align-items: center;
 }
