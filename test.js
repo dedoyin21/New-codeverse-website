@@ -1,28 +1,20 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const programs = document.getElementById("programs");
-    const barsIcon = document.querySelector(".fa-solid.fa-bars");
-    const closeIcon = document.querySelector(".fa.fa-close");
+// Select the SVG icon and the dropdown menu
+const flist = document.getElementById("f-lists");
+const menutoggle = document.getElementById()
 
-    programs.addEventListener("click", function () {
-        if (closeIcon.style.display === "inline") {
-            // If the close icon is visible, hide it when "Programs" is clicked
-            closeIcon.style.display = "none";
-            barsIcon.style.display = "inline";
-        }
-    });
+// Toggle the dropdown menu when the SVG icon is clicked
+flist.addEventListener("click", () => {
+    if (menuMobile.style.display === "block") {
+        menuMobile.style.display = "none"; // Hide the menu
+    } else {
+        menuMobile.style.display = "block"; // Show the menu
+    }
+});
 
-    barsIcon.addEventListener("click", function () {
-        if (closeIcon.style.display === "none") {
-            // If the close icon is not visible, show it when the bars icon is clicked
-            closeIcon.style.display = "inline";
-            barsIcon.style.display = "none";
-        }
-    });
-
-    closeIcon.addEventListener("click", function () {
-        // When the close icon is clicked, switch back to the bars icon
-        closeIcon.style.display = "none";
-        barsIcon.style.display = "inline";
-    });
+// Close the dropdown when clicking outside of it
+document.addEventListener("click", (event) => {
+    if (!menuIcon.contains(event.target) && !menuMobile.contains(event.target)) {
+        menuMobile.style.display = "none"; // Hide the menu
+    }
 });
 
