@@ -14,6 +14,15 @@
         display: none;
     }
 
+    .page-6{ 
+    font-size: "Cabinet Grotesk Variable";    
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 3rem 0 3rem 0;
+    margin: 0;
+    text-align: start;
+    }
+
     h3{
         display: block;
     }
