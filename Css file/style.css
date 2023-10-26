@@ -26,6 +26,11 @@ header, aside{
     background-color: #F6F0E3;
 }
 
+i.fa.fa-close {
+    display: none;
+    font-size: 48px;
+}
+
 .shape {
     position: absolute;
     bottom: 0;
