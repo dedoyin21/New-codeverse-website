@@ -16,6 +16,17 @@ header, aside{
     background-color: #F6F0E3;
 }
 
+.shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 20rem;
+    z-index: 1.5;
+    height: 50vh;
+    width: 50vw;
+    background-size: cover;
+}
 
 
 @font-face {
@@ -87,21 +98,19 @@ h3, .s-lists{
 /*First section styling */
 .mission>h1{ 
     font-family: "Cabinet Grotesk Variable";    
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 3.5rem;
+    line-height: 4.5rem;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: center; 
     padding-top: 20px;
-    margin: 0 auto;
-    width: 40vw;
 }
 
 .mission p{
     text-align: center;
     padding-top: 20px;
     margin: 0 auto;
-    width: 50vw;
+    width: 40vw;
     font-family: "IBM_Plex_Sans/IBMPlexSans-Regular.ttf";
     font-size: 1rem;
     font-weight: 400;
@@ -109,19 +118,19 @@ h3, .s-lists{
     letter-spacing: 0.02em;
 }
 
+.mission{
+    padding-top: 1.5rem;
+}
+
 /* General styling for button in first section */
 .btn-2{
     display: flex;
     margin: 30px auto;
     justify-content: center;
-    padding: 1.5rem 0 13rem 0;
+    padding: 1.5rem 0 21rem 0;
     margin: 0;
 }
 
-.btn-2:hover {
-    transition: opacity 0.3s; 
-    opacity: 0.5; 
-  }
 
 /*First Button */
 .btn-t{
