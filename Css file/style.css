@@ -1,19 +1,11 @@
+@import url('/Css\ file/cabinet-grotesk.css');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "IBM Plex Sans";
-    src: url("C:\Users\PC\Documents\GitHub\New-codeverse-website\Fonts\IBM_Plex_Sans");
-}  
-
-@font-face {
-    font-family: "Cabinet Grotesk Variable";
-    src: url("C:\Users\PC\Documents\GitHub\New-codeverse-website\Fonts\CabinetGrotesk_Complete");
-}  
-    
 body{
     overflow-x: hidden;
 }
@@ -103,7 +95,7 @@ h3, .s-lists{
 
 /*First section styling */
 .mission>h1{ 
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';    
     font-size: 4rem;
     font-weight: 700;
     line-height: 4.5rem;
@@ -176,7 +168,7 @@ h3, .s-lists{
 }
 
 .code{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';    
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -225,7 +217,7 @@ h3, .s-lists{
 }
 
 .h1-square h2{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';   
     font-size: 2rem;
     color: #fff;
     font-weight: 700;
@@ -290,7 +282,7 @@ h3, .s-lists{
 }
 
 .middle-content h1{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';   
     font-size: 2.2em; 
     font-weight: 700;
     color: #000000;
@@ -313,7 +305,7 @@ h3, .s-lists{
 }
 
 .start h4{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';   
     font-size: 1em; 
     font-weight: 700;  
     letter-spacing: 0.02em;
@@ -321,7 +313,7 @@ h3, .s-lists{
 }
 
 .program h1{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';  
     font-size: 2em; 
     font-weight: 700; 
     color: #000000;
@@ -363,7 +355,7 @@ h3, .s-lists{
   }
 
 .product h2{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';   
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -385,7 +377,7 @@ h3, .s-lists{
 }
 
 .page-6{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';  
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -395,7 +387,7 @@ h3, .s-lists{
 }
 
 .st-details h4{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';  
     font-size: 1.2rem;
     font-weight: 700;
     color:  rgba(255, 255, 255, 1);
@@ -450,7 +442,7 @@ h3, .s-lists{
 }
 
 .c-word1 h1{
-    font-family: "Cabinet Grotesk Variable";    
+    font-family: 'CabinetGrotesk-Variable';  
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.02em;
