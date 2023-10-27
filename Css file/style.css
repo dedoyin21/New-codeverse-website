@@ -1,4 +1,5 @@
-@import url('/Css\ file/cabinet-grotesk.css');
+@import url('cabinet-grotesk.css');
+@import url('IBMplex.css');
 
 *{
     padding: 0;
@@ -18,12 +19,22 @@ header, aside{
     background-color: #F6F0E3;
 }
 
+.hero {
+    font-family: 'CabinetGrotesk-Bold';    
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    letter-spacing: 0.02em;
+    text-align: center; 
+    padding-top: 20px;
+}
+
 i.fa.fa-close {
     display: none;
     font-size: 48px;
 }
 
-.shape {
+/* .shape {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -34,7 +45,7 @@ i.fa.fa-close {
     width: 50vw;
     background-size: cover;
 }
-
+ */
 /* nav-links styling*/
 
 .d-fl{
@@ -62,7 +73,7 @@ h3, .s-lists{
 /* Styling for general buttons */
 .btn{
     text-decoration: none;
-    font-family: "IBM Plex Sans";
+    font-family: "Ibmplex-Regulars";
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
@@ -94,15 +105,6 @@ h3, .s-lists{
 }
 
 /*First section styling */
-.mission>h1{ 
-    font-family: 'CabinetGrotesk-Variable';    
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    letter-spacing: 0.02em;
-    text-align: center; 
-    padding-top: 20px;
-}
 
 .mission p{
     text-align: center;
@@ -332,6 +334,10 @@ h3, .s-lists{
 
 #vector, .product{
     margin-bottom: 1.5rem;
+}
+
+.icon-vector{
+    margin-bottom: 2rem;
 }
 
 .btn-arrow-e{
