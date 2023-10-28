@@ -14,8 +14,28 @@
     }
 
     .f-lists{
+        display: flex;
+        display: absolute;
+        z-index: 1;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 5rem;
+        background-color: rgb(196, 5, 5);
+        gap: 1rem;
+        width: 25vw;
+    }
+
+    .fas.fa-caret-down{
         display: none;
     }
+
+    a .topic{
+        text-decoration: none;
+    }
+
+  /*   .myBtn1{
+        display: none;
+    } */
 
     .page-6{   
     font-size: 2rem;
@@ -29,10 +49,6 @@
         display: block;
     }
 
-    .myBtn1{
-        display: none;
-    }
-
     .mission>p{ 
         line-height: 2rem;
         font-size: 1.2rem;
@@ -44,7 +60,7 @@
     
     .hero{
         line-height: 2rem;
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         font-weight: 600;
         text-align: center;
         margin: 0 auto;
